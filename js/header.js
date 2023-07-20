@@ -6,18 +6,20 @@ let header_del_DOM = document.querySelector(".header");
 //Almacenar en una variable el contenido a agregar
 let header = `
 <div class = "contenedor">
-<img src="./img/park.png">
-<p>Titulo del Header</p>
-<nav>
-    <ul class ="tipos">
-        <li>Transporte Pesado</li>
-        <li>SUV</li>
-        <li>Sedanes</li>
-        <li>Motocicletas</li>
-        <li>Otros</li>
-    </ul>
-</nav>
- </div>
+    <img src="./img/park.png">
+    <p>Parqueo Privado</p>
+</div>
+    <div class= "tipo">
+        <nav>
+            <ul class ="tipos">
+                <li> 🚌| Transporte Pesado</li>
+                <li> 🚙| SUV</li>
+                <li> 🚗| Sedanes</li>
+                <li> 🏍️| Motocicletas</li>
+                <li> 🛺| Otros</li>
+             </ul>
+        </nav>
+    </div>
 `;
 
 //Agregar el contenido a la referecia del DOM

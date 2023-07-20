@@ -3,10 +3,13 @@
 }
 
 .contenedor{
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
+    justify-content: space-between;
+    margin: 1rem;
+
 }
 
 .tipos{
@@ -18,9 +21,27 @@
 .tipos li{
     list-style: none;
     margin: 1rem;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 10px;
+}
+
+.tipos li{
+    background-color: rgb(201, 201, 201);
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor img{
     width: 5rem;
     height: 5rem;
 }
+
+.tipo{
+    margin: 1rem;
+}
+
+
